@@ -1,0 +1,35 @@
+{
+  "name": "showman-api",
+  "version": "1.0.0",
+  "description": "An api for the showman-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/index.js",
+    "dev": "nodemon --exec babel-node src/index.js",
+    "server": "nodemon server.js babel-node -- src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruiru11/Showman-Api.git"
+  },
+  "author": "Erastus Ruriru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ruiru11/Showman-Api/issues"
+  },
+  "homepage": "https://github.com/Ruiru11/Showman-Api#readme",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "body-parser": "^1.19.0",
+    "chalk": "^3.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1"
+  }
+}
