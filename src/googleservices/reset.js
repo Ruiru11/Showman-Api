@@ -35,8 +35,8 @@ export const sendMail = async data => {
   // Step 3
   transporter.sendMail(mailOptions, (err, data) => {
     if (err) {
-      return log("Error occurs", err);
+      return console.log("Error occurs", err);
     }
-    return log("Email sent!!!");
+    return console.log("Email sent!!!");
   });
 };
